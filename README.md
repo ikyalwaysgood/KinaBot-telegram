@@ -7,8 +7,8 @@ Crafted with the powerful `node-telegram-bot-api`, this bot employs a modular pl
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/ERLANRAHMAT/telebot
-   cd telebot
+   git clone https://github.com/ikyalwaysgood/KinaBot-telegram
+   cd KinaBot-telegram
    ```
 
 2. **Install dependencies:**
