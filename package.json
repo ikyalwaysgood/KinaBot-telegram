@@ -1,12 +1,12 @@
 {
-  "name": "telebot",
+  "name": "Kιɳα Bσƚ",
   "version": "0.0.1",
   "description": "Simple Telegram Bot Plugins",
   "main": "beta.js",
   "scripts": {
     "start": "node beta.js"
   },
-  "author": "Lann",
+  "author": "Iky𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑ཽ",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
