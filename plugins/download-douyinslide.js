@@ -27,7 +27,7 @@ const plugin = {
         const replyMarkup = {
           reply_markup: {
             inline_keyboard: [
-              [{ text: 'Script Bot', url: buttonUrl }],
+              [{ text: 'WhatsApp Group', url: buttonUrl }],
               [{ text: 'Audio', url: play }],
             ],
           },
