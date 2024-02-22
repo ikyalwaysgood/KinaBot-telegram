@@ -12,7 +12,7 @@ const plugin = {
       const replyMarkup = {
         reply_markup: {
           inline_keyboard: [
-            [{ text: 'My Owner', url: "https://t.me/"+ownerName }],
+            [{ text: 'My Owner', url: "https://t.me/@iky_reallysad"+ownerName }],
           ],
         },
       };
