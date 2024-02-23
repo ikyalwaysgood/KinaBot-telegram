@@ -63,7 +63,7 @@ bot.on('new_chat_members', async (msg) => {
   const profilePhoto = newUser && newUser.photo ? await bot.getFileLink(newUser.photo.big_file_id) : 'https://telegra.ph/file/24fa902ead26340f3df2c.png';
 
   const welcomeMessage = `
-   🎉 Hai ${newUser.username}! 🎉
+   🎉 Hai ${newUser.username}! ☺️
    Selamat datang di grup ${msg.chat.title}.
    Jam: ${new Date(msg.date * 1000).toLocaleTimeString()}
    Hari: ${new Date(msg.date * 1000).toLocaleDateString()}
@@ -80,7 +80,7 @@ bot.on('left_chat_member', async (msg) => {
   const profilePhoto = leftUser && leftUser.photo ? await bot.getFileLink(leftUser.photo.big_file_id) : 'https://telegra.ph/file/24fa902ead26340f3df2c.png';
 
   const goodbyeMessage = `
-     👋 Goodbye ${leftUser.username}!
+     👋🏻 Goodbye ${leftUser.username}!
     Selamat tinggal di grup ${msg.chat.title}.
     Jam: ${new Date(msg.date * 1000).toLocaleTimeString()}
     Hari: ${new Date(msg.date * 1000).toLocaleDateString()}
