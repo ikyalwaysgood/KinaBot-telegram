@@ -49,7 +49,7 @@ const options = {
     inline_keyboard: [
       [
         {
-          text: 'Script Bot',
+          text: 'WhatsApp Group',
           url: buttonUrl, // Ganti dengan URL yang sebenarnya
         },
       ],
@@ -67,7 +67,7 @@ bot.on('new_chat_members', async (msg) => {
    Selamat datang di grup ${msg.chat.title}.
    Jam: ${new Date(msg.date * 1000).toLocaleTimeString()}
    Hari: ${new Date(msg.date * 1000).toLocaleDateString()}
-   Semoga betah yaa. 😊
+   Semoga betah yaa 🙃
   `;
 
   bot.sendPhoto(chatId, profilePhoto, { caption: welcomeMessage, ...options });
@@ -120,7 +120,7 @@ app.get('/', (req, res) => {
   const data = {
     status: 'true',
     message: `Telegram Bot Successfully Activated!`,
-    author: 'Lann',
+    author: 'Iky Official',
   };
   const result = {
     response: data,
