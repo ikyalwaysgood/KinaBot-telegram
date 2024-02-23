@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://btch.pages.dev/file/9e4162d4034241953fdfb.jpg" alt="BOT TELEGRAM" width="400"/>
+
 # Kιɳα Bσƚ 🤖
 
 ## Description
